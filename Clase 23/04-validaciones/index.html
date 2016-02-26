@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf8">
+	<link rel="stylesheet" href="css/validationEngine.jquery.css" type="text/css"/>
+</head>
+<body>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+	<form id="formRegistro">
+		<input type="text" name="nombres" id="nombres" placeholder="Ingrese sus nombre" class="validate[required]">
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+		<input type="text" name="correo" id="correo" placeholder="Ingrese su correo" class="validate[required,custom[email]]">
+		<br>
+		<input type="submit" name="btn" id="btn" value="Ingresar">
+	</form>
+
+	<script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+
+	<script src="js/languages/jquery.validationEngine-es.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/jquery.validationEngine.js" type="text/javascript" charset="utf-8"></script>
+
+	<script>
+		$("#formRegistro").validationEngine();
+	</script>
+
+</body>
+</html>

@@ -89,7 +89,6 @@ for(var reg = 0; reg < listadoProvincias.length; reg++ ) {
 	}
 }
 
-
 selRegiones.addEventListener("change", function(){
 	selProvincias.innerHTML="";
 	for(var reg = 0; reg < listadoProvincias.length; reg++ ) {
@@ -99,7 +98,5 @@ selRegiones.addEventListener("change", function(){
 			opcion.innerHTML = listadoProvincias[reg].nombre;
 			selProvincias.appendChild(opcion);		 	
 		 }
-
 	}
-
-})
+});
