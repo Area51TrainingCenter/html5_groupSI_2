@@ -1,0 +1,3 @@
+Para crear una pestaña en Facebook
+
+https://www.facebook.com/dialog/pagetab?app_id={ID de aplicación (*)}&next={URL de aplicación en Facebook}
